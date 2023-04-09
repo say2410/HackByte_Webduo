@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.jpeg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <button class="open-btn" id="show_button" onclick="openChatWindow()"><i class="fa fa-comment"></i>Chat</button>
+    <div class="chat-popup" id="chat-form-container">
+        <form action="#" class="form-container"></form>
+        <div class="chat-window-head">
+            <h4><i class="fa fa-comment"></i>Chat Window</h4>
+            <span class="close-btn" onclick="closeChatWindow()">
+            <i class="fa fa-times"></i>
+        </span>
+        </div>
+        <div class="msg_container">
+            <div class="msg">
+                <p>Hey, how may I help</p>
+                <span>9:36</span>
+            </div>
+        </div>
+        <div class="chat-box-container">
+            <div class="chat-box">
+                <input type="text" placeholder="Type your message here..." name="msg" required>
+                <button type="submit" class="btn"><i class="fa fa-chevron-circle-right send-btn"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <section class=" faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>When do you earn one Dime?</h4>
+                    <p>One Dime is equal to 1000 shares. So you earn a Dime after 1000 shares of your video.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How much is one Dime?</h4>
+                    <p>A Dime can be converted to Rs 100.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Who can share your videos?</h4>
+                    <p>Video sharing is open for all.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I know its the best website for me?</h4>
+                    <p>Along with video viewing we also give option to earn.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How long can a video be?</h4>
+                    <p>A video can be around 10 seconds long.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do this work?</h4>
+                    <p>The website increases engagement among your viewers, especially the younger audience.This format is easy to consume. After all, scrolling through numerous 10-seconds shorts is simple and doesn’t require any conscious effort. </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <div class="container">
+        <iframe src="https://giphy.com/embed/lkdH8FmImcGoylv3t3" width="480" height="358" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/confused-nick-young-lkdH8FmImcGoylv3t3">via GIPHY</a></p>
+    </div>
+    
+</body>
+<script src="chat.js"></script>
+
+</html>

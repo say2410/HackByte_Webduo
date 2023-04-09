@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #3e2228;
+    --color-success: #00bf8e;
+    --color-warning: #95adbf;
+    --color-danger: #616b71;
+    --color-danger-varient: rgba(247,88,66,0.4);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0.7);
+    --color-black: #000;
+    --color-bg: #7a424d;
+    --color-bg1: #715157;
+    --color-bg2: #8099d1;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: linear-gradient(#eeaeca,#b794e9,#94cce9);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+.video_screen{
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.play_btn{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.w3-button {
+    width: 50px;
+    height: 50px;
+}
